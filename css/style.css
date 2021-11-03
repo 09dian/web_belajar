@@ -213,6 +213,7 @@ img {
 
     .noteFound img {
         max-width: 50%;
+        overflow-x: hidden;
     }
 }
 
