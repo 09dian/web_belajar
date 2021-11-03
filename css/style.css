@@ -1,0 +1,251 @@
+/*========================================================================
+by created : Dian mustofa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Template Name   : RACIK CODE
+========================================================================*/
+
+
+body {
+    background-color: #F1F1F1;
+    font-family: Raleway, sans-serif;
+    font-weight: 400px;
+
+}
+
+.nv {
+    background-color: #41B883;
+}
+
+.btn {
+    background-color: white;
+    color: #41B883;
+}
+
+.pull-right {
+    background-color: #329F5B;
+    color: white;
+    width: 370px;
+    height: 38px;
+}
+
+
+
+.mdt {
+    margin: auto;
+    margin-left: 39%;
+    text-align: center;
+}
+
+#home {
+    margin-top: 50px;
+    background-color: #1c3f2e;
+    color: white
+}
+
+img {
+    max-width: 80%;
+}
+
+.cours {
+    margin-top: 60px;
+    color: #3F3D56;
+}
+
+.button {
+    margin: auto;
+    text-align: center;
+}
+
+.code {
+    font-weight: bold;
+}
+
+#about .animated {
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+
+.codeOpacity {
+    font-size: 48px;
+}
+
+#services {
+    background-color: #9becc8;
+}
+
+#services {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+.services .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #ef7f4d;
+}
+
+.services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.services .title a {
+    color: #111;
+    text-decoration: none;
+
+}
+
+.services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.description {
+    text-align: center;
+}
+
+#home .conten {
+    max-width: 50%;
+}
+
+.post-content a {
+    text-decoration: none;
+}
+
+
+
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(11px);
+    }
+
+    100% {
+        transform: translateY(-11px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(11px);
+    }
+
+    100% {
+        transform: translateY(-11px);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .btn {
+        background-color: #42B883;
+        color: white;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+
+    .button {
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .imgsearch img {
+        margin: auto;
+        text-align: center;
+        max-width: 55%;
+    }
+
+    .label {
+        margin-top: 50px;
+    }
+
+    .codeOpacity {
+        display: none;
+    }
+
+    .iconConten {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about img {
+        margin: auto;
+        text-align: center;
+        max-width: 55%;
+    }
+
+    .block {
+        margin: auto;
+        text-align: center;
+    }
+
+    .noteFound img {
+        max-width: 50%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .pull-right {
+        background-color: #329F5B;
+        color: white;
+        width: 280px;
+        height: 38px;
+    }
+
+
+
+
+}
+
+.noteFound {
+    margin: auto;
+    margin-top: 100px;
+}
+
+.back {
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+/*========================================================================
+by created : Dian mustofa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Template Name   : card
+========================================================================*/

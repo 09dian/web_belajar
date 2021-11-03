@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="11.6929in" height="8.26772in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11692.91 8267.72"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="482" font-variant="normal" style="fill-rule:nonzero" font-weight="600">
+	<font-face 
+		font-family="Teko SemiBold">
+		<font-face-src>
+			<font-face-name name="Teko SemiBold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="449" d="M421.002 412.994l-143.999 0 0 100.004c0,16.6653 -8.66926,25.0038 -26.0078,25.0038l-40.9959 0c-17.9999,0 -26.9999,-8.33855 -26.9999,-25.0038l0 -389.998c0,-9.33067 1.99606,-15.8385 5.99998,-19.4999 4.00392,-3.6614 10.996,-5.50392 20.9999,-5.50392l40.9959 0c9.34248,0 16.0039,1.84251 20.0078,5.50392 3.99211,3.6614 5.99998,10.1693 5.99998,19.4999l0 97.0036 143.999 0 0 -110.007c0,-73.3344 -42.3305,-109.996 -127.003,-109.996l-127.996 0c-83.9997,0 -126,36.6613 -126,109.996l0 416.006c0,73.3344 41.9998,109.996 126,109.996l127.996 0c84.6729,0 127.003,-36.6613 127.003,-109.996l0 -113.007z"/>
+   <glyph unicode="D" horiz-adv-x="484" d="M52.0037 635.997l264.991 0c84.6729,0 127.003,-36.6613 127.003,-109.996l0 -415.002c0,-73.9958 -42.3305,-111 -127.003,-111l-264.991 0 0 635.997zm248.999 -512.998l0 389.998c0,16.6653 -8.99996,25.0038 -26.9999,25.0038l-79.0036 0 0 -440.006 79.0036 0c17.9999,0 26.9999,8.33855 26.9999,25.0038z"/>
+   <glyph unicode="E" horiz-adv-x="409" d="M187.995 105l203.999 0 0 -105 -346.995 0 0 635.997 338.999 0 0 -105 -196.003 0 0 -154.995 167.007 0 0 -105 -167.007 0 0 -166.003z"/>
+   <glyph unicode="H" horiz-adv-x="500" d="M313.995 635.997l140.999 0 0 -635.997 -140.999 0 0 262.003 -127.996 0 0 -262.003 -140.999 0 0 635.997 140.999 0 0 -268.995 127.996 0 0 268.995z"/>
+   <glyph unicode="L" horiz-adv-x="370" d="M187.003 105l182.999 0 0 -105 -325.003 0 0 635.997 142.003 0 0 -530.998z"/>
+   <glyph unicode="M" horiz-adv-x="611" d="M170.999 0l-126 0 0 635.997 155.999 0 105 -359.999 105 359.999 155.999 0 0 -635.997 -126 0 0 427.002 -82.0036 -289.003 -105.992 0 -82.0036 287.999 0 -425.998z"/>
+   <glyph unicode="O" horiz-adv-x="469" d="M167.999 635.997l133.996 0c83.9997,0 126,-36.6613 126,-109.996l0 -415.002c0,-73.9958 -41.9998,-111 -126,-111l-133.996 0c-84.6611,0 -127.003,37.0038 -127.003,111l0 415.002c0,73.3344 42.3424,109.996 127.003,109.996zm117 -505.994l0 376.002c0,16.6653 -8.66926,24.992 -25.996,24.992l-47.9998 0c-17.9999,0 -26.9999,-8.32674 -26.9999,-24.992l0 -376.002c0,-16.6653 8.99996,-25.0038 26.9999,-25.0038l47.9998 0c17.3267,0 25.996,8.33855 25.996,25.0038z"/>
+   <glyph unicode="P" horiz-adv-x="455" d="M44.9998 635.997l262.003 0c83.9997,0 126,-36.6613 126,-109.996l0 -193.003c0,-73.9958 -41.9998,-111 -126,-111l-120 0 0 -221.999 -142.003 0 0 635.997zm244.995 -283.995l0 154.003c0,16.6653 -8.65745,24.992 -25.996,24.992l-76.9958 0 0 -203.999 76.9958 0c17.3385,0 25.996,8.33855 25.996,25.0038z"/>
+   <glyph unicode="T" horiz-adv-x="385" d="M380.999 635.997l0 -105 -117 0 0 -530.998 -142.996 0 0 530.998 -116.007 0 0 105 376.002 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Teko SemiBold";font-variant:normal;font-weight:600;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#373435;stroke-width:19.69;stroke-miterlimit:2.61313}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#373435}
+    .fnt0 {font-weight:600;font-size:333.33px;font-family:'Teko SemiBold'}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="1368.13" y="1633.86" width="8956.66" height="4999.99"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="1368.13" y="1633.86" width="8956.66" height="4999.99" xlink:href="Freelance_Images\Freelance_ImgID1.png"/>
+  </g>
+  <circle class="fil0 str0" cx="4520.75" cy="3581.71" r="484.37"/>
+  <circle class="fil0 str0" cx="3451.98" cy="2275.49" r="484.37"/>
+  <circle class="fil0 str0" cx="3468.67" cy="4842.13" r="484.37"/>
+  <text x="3212.97" y="2381.49"  class="fil1 fnt0">PHP</text>
+  <text x="4201.92" y="3687.71"  class="fil1 fnt0">HTML</text>
+  <text x="3177" y="4946.3"  class="fil1 fnt0">CODE</text>
+ </g>
+</svg>

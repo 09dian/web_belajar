@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RACIKCODE
+    </title>
+</head>
+
+<body>
+
+    <!-- nabavar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nv fixed-top">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <a class="navbar-brand " href="index.html"> <i class="fab fa-codepen  animated"></i> RACIK <b>CODE</b>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-github"> </i> GitHub</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tutorial lainnya
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentcolor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg>
+                            26 Oktober 2021</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline btn" type="submit"><b>Search</b></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+    <!-- navmobile -->
+    <nav class="navbar navbar-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none p-0 nv "
+        style="margin-top: 50px;">
+        <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-center">
+                    <b><svg width="1.5em" height="1.5em" viewbox="0 0 16 16" class="bi bi-house" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            <path fill-rule="evenodd"
+                                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                        </svg></b>
+                    <span class="small d-block">Home</span>
+                </a>
+            </li>
+            <li class="nav-item dropup">
+                <a href="#" class="nav-link text-center" role="button" id="dropdownMenuProfile"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+                        </svg></b>
+                    <span class="small d-block">Info</span>
+                </a>
+                <!-- Dropup menu for profile -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuProfile">
+                    <a class="dropdown-item" href="#">Tutorial lainnya</a>
+                    <a class="dropdown-item" href="#">Notification</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </li>
+            <li class="nav-item dropup ">
+                <a href="#" class="nav-link text-center" role="button" id="dropdownMenuProfile" data-bs-toggle="modal"
+                    aria-haspopup="true" aria-expanded="false">
+                    <b><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg></b>
+                    <b><span class="small d-block">GitHub</span></b>
+                </a>
+            </li>
+            <li class="nav-item dropup ">
+                <a href="#exampleModalToggles" class="nav-link text-center" role="button" id="dropdownMenuProfile"
+                    data-bs-toggle="modal" aria-haspopup="true" aria-expanded="false">
+                    <b><svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewbox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></b>
+                    <b><span class="small d-block">Search</span></b>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- ahirnavmobile -->
+
+
+    <!-- search -->
+    <div class="modal fade" id="exampleModalToggles" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title mdt" id="exampleModalToggleLabel">SEARCH</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline btn" type="submit"
+                            style="background-color:#41B883; color: white;">Search</button>
+                    </form>
+                    <br>
+                    <div class="col-lg-7 text-center p-30px-l mt-4 imgsearch">
+                        <img src="img/search1.svg" title="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhirsearch -->
+
+    <!-- section -->
+    <section id="home" class="home-banner-03 theme-bg bg-effect-box">
+        <div class="bg-effect bg-cover"></div>
+        <div id="particles_effect" class="particles-effect"></div>
+        <div class="container textP">
+            <br>
+            <div class="row align-items-center justify-content-center p-100px-tb sm-p-60px-b">
+                <div class="col-lg-5 md-p-20px-tb">
+                    <div class="block">
+                        <div class="card-block py-lg px-md label">
+                            <label class="form-label ">
+                                <p data-aos="fade-up" style="font-size: 40px;">Hal apa yang ingin kamu pelajari ?</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-center p-30px-l mt-4 img" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="img/undraw8.svg" title="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sectionakhir -->
+
+
+
+
+
+    <div class="container my-5">
+        <div class="row row-cols-1 d-flex justify-content-between" data-aos="flip-left">
+            <div class="col-md-12 col-lg-10 mx-auto mb-4">
+                <div class="card card-shadow" tabindex=0>
+                    <div class="card-body p-4 d-flex flex-column flex-md-row align-items-center">
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="img/undraw7.svg" class="rounded mb-4 mb-md-0"
+                                        alt="Tutorial Codeigniter 4 untuk Pemula"
+                                        style=object-fit:cover;width:140px;height:140px>
+                                </picture>
+                            </a>
+                        </div>
+                        <div class=mx-md-4>
+                            <h2><a class="text-dark" style="text-decoration: none;" href="materi.html">Tutorial
+                                    Codeigniter 4 untuk Pemula</a></h2>
+                            <p><small class=text-muted>By Dian Mustofa</small></p>
+                            <p class="small text-secondary">Pada tutorial ini, kamu akan belajar tentang dasar
+                                Codeigniter 4 mulai dari pengenalan sejarah, instalasi, hingga membuat proyek sederhana.
+                            </p>
+                        </div>
+                        <!-- Dibaca -->
+                        <div class="ml-auto flex-column d-none d-md-flex justify-content-center" style=min-width:160px>
+                            <div class=my-2 title="Perkiraan waktu yang dihabiskan untuk belajar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg> <b
+                                    class=ml-1>35</b> <span class="text-secondary small">Dibaca</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-journals" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2 2 2 0 01-2 2H3a2 2 0 01-2-2h1a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3A1 1 0 002 4H1a2 2 0 012-2h8a2 2 0 012 2v9a1 1 0 001-1V2a1 1 0 00-1-1H5A1 1 0 004 2H3a2 2 0 012-2z" />
+                                    <path
+                                        d="M1 6v-.5a.5.5.0 011 0V6h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 3v-.5a.5.5.0 011 0V9h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 2.5v.5H.5a.5.5.0 000 1h2a.5.5.0 000-1H2v-.5a.5.5.0 00-1 0z" />
+                                </svg> <b class=ml-1>15</b> <span class="text-secondary small">Artikel</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3A2 2 0 116 5a2 2 0 014 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29.0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                </svg> <b class=ml-1>Pemula</b> <span class="text-secondary small">Level</span>
+                            </div>
+                        </div>
+                        <!-- akhirDibaca -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 d-flex justify-content-between" data-aos="flip-left">
+            <div class="col-md-12 col-lg-10 mx-auto mb-4">
+                <div class="card card-shadow" tabindex=0>
+                    <div class="card-body p-4 d-flex flex-column flex-md-row align-items-center">
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="img/undraw7.svg" class="rounded mb-4 mb-md-0"
+                                        alt="Tutorial Codeigniter 4 untuk Pemula"
+                                        style=object-fit:cover;width:140px;height:140px>
+                                </picture>
+                            </a>
+                        </div>
+                        <div class=mx-md-4>
+                            <h2><a class="text-dark" style="text-decoration: none;" href="#">Tutorial Codeigniter 4
+                                    untuk Pemula</a></h2>
+                            <p><small class=text-muted>By Dian Mustofa</small></p>
+                            <p class="small text-secondary">Pada tutorial ini, kamu akan belajar tentang dasar
+                                Codeigniter 4 mulai dari pengenalan sejarah, instalasi, hingga membuat proyek sederhana.
+                            </p>
+                        </div>
+                        <!-- Dibaca -->
+                        <div class="ml-auto flex-column d-none d-md-flex justify-content-center" style=min-width:160px>
+                            <div class=my-2 title="Perkiraan waktu yang dihabiskan untuk belajar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg> <b
+                                    class=ml-1>35</b> <span class="text-secondary small">Dibaca</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-journals" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2 2 2 0 01-2 2H3a2 2 0 01-2-2h1a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3A1 1 0 002 4H1a2 2 0 012-2h8a2 2 0 012 2v9a1 1 0 001-1V2a1 1 0 00-1-1H5A1 1 0 004 2H3a2 2 0 012-2z" />
+                                    <path
+                                        d="M1 6v-.5a.5.5.0 011 0V6h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 3v-.5a.5.5.0 011 0V9h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 2.5v.5H.5a.5.5.0 000 1h2a.5.5.0 000-1H2v-.5a.5.5.0 00-1 0z" />
+                                </svg> <b class=ml-1>15</b> <span class="text-secondary small">Artikel</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3A2 2 0 116 5a2 2 0 014 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29.0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                </svg> <b class=ml-1>Pemula</b> <span class="text-secondary small">Level</span>
+                            </div>
+                        </div>
+                        <!-- akhirDibaca -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 d-flex justify-content-between" data-aos="flip-left">
+            <div class="col-md-12 col-lg-10 mx-auto mb-4">
+                <div class="card card-shadow" tabindex=0>
+                    <div class="card-body p-4 d-flex flex-column flex-md-row align-items-center">
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="img/undraw7.svg" class="rounded mb-4 mb-md-0"
+                                        alt="Tutorial Codeigniter 4 untuk Pemula"
+                                        style=object-fit:cover;width:140px;height:140px>
+                                </picture>
+                            </a>
+                        </div>
+                        <div class=mx-md-4>
+                            <h2><a class="text-dark" style="text-decoration: none;" href="#">Tutorial Codeigniter 4
+                                    untuk Pemula</a></h2>
+                            <p><small class=text-muted>By Dian Mustofa</small></p>
+                            <p class="small text-secondary">Pada tutorial ini, kamu akan belajar tentang dasar
+                                Codeigniter 4 mulai dari pengenalan sejarah, instalasi, hingga membuat proyek sederhana.
+                            </p>
+                        </div>
+                        <!-- Dibaca -->
+                        <div class="ml-auto flex-column d-none d-md-flex justify-content-center" style=min-width:160px>
+                            <div class=my-2 title="Perkiraan waktu yang dihabiskan untuk belajar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg> <b
+                                    class=ml-1>35</b> <span class="text-secondary small">Dibaca</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-journals" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2 2 2 0 01-2 2H3a2 2 0 01-2-2h1a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3A1 1 0 002 4H1a2 2 0 012-2h8a2 2 0 012 2v9a1 1 0 001-1V2a1 1 0 00-1-1H5A1 1 0 004 2H3a2 2 0 012-2z" />
+                                    <path
+                                        d="M1 6v-.5a.5.5.0 011 0V6h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 3v-.5a.5.5.0 011 0V9h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 2.5v.5H.5a.5.5.0 000 1h2a.5.5.0 000-1H2v-.5a.5.5.0 00-1 0z" />
+                                </svg> <b class=ml-1>15</b> <span class="text-secondary small">Artikel</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3A2 2 0 116 5a2 2 0 014 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29.0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                </svg> <b class=ml-1>Pemula</b> <span class="text-secondary small">Level</span>
+                            </div>
+                        </div>
+                        <!-- akhirDibaca -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 d-flex justify-content-between" data-aos="flip-left">
+            <div class="col-md-12 col-lg-10 mx-auto mb-4">
+                <div class="card card-shadow" tabindex=0>
+                    <div class="card-body p-4 d-flex flex-column flex-md-row align-items-center">
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="img/undraw7.svg" class="rounded mb-4 mb-md-0"
+                                        alt="Tutorial Codeigniter 4 untuk Pemula"
+                                        style=object-fit:cover;width:140px;height:140px>
+                                </picture>
+                            </a>
+                        </div>
+                        <div class=mx-md-4>
+                            <h2><a class="text-dark" style="text-decoration: none;" href="#">Tutorial Codeigniter 4
+                                    untuk Pemula</a></h2>
+                            <p><small class=text-muted>By Dian Mustofa</small></p>
+                            <p class="small text-secondary">Pada tutorial ini, kamu akan belajar tentang dasar
+                                Codeigniter 4 mulai dari pengenalan sejarah, instalasi, hingga membuat proyek sederhana.
+                            </p>
+                        </div>
+                        <!-- Dibaca -->
+                        <div class="ml-auto flex-column d-none d-md-flex justify-content-center" style=min-width:160px>
+                            <div class=my-2 title="Perkiraan waktu yang dihabiskan untuk belajar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg> <b
+                                    class=ml-1>35</b> <span class="text-secondary small">Dibaca</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-journals" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2 2 2 0 01-2 2H3a2 2 0 01-2-2h1a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3A1 1 0 002 4H1a2 2 0 012-2h8a2 2 0 012 2v9a1 1 0 001-1V2a1 1 0 00-1-1H5A1 1 0 004 2H3a2 2 0 012-2z" />
+                                    <path
+                                        d="M1 6v-.5a.5.5.0 011 0V6h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 3v-.5a.5.5.0 011 0V9h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 2.5v.5H.5a.5.5.0 000 1h2a.5.5.0 000-1H2v-.5a.5.5.0 00-1 0z" />
+                                </svg> <b class=ml-1>15</b> <span class="text-secondary small">Artikel</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3A2 2 0 116 5a2 2 0 014 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29.0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                </svg> <b class=ml-1>Pemula</b> <span class="text-secondary small">Level</span>
+                            </div>
+                        </div>
+                        <!-- akhirDibaca -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 d-flex justify-content-between" data-aos="flip-left">
+            <div class="col-md-12 col-lg-10 mx-auto mb-4">
+                <div class="card card-shadow" tabindex=0>
+                    <div class="card-body p-4 d-flex flex-column flex-md-row align-items-center">
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="img/undraw7.svg" class="rounded mb-4 mb-md-0"
+                                        alt="Tutorial Codeigniter 4 untuk Pemula"
+                                        style=object-fit:cover;width:140px;height:140px>
+                                </picture>
+                            </a>
+                        </div>
+                        <div class=mx-md-4>
+                            <h2><a class="text-dark" style="text-decoration: none;" href="#">Tutorial Codeigniter 4
+                                    untuk Pemula</a></h2>
+                            <p><small class=text-muted>By Dian Mustofa</small></p>
+                            <p class="small text-secondary">Pada tutorial ini, kamu akan belajar tentang dasar
+                                Codeigniter 4 mulai dari pengenalan sejarah, instalasi, hingga membuat proyek sederhana.
+                            </p>
+                        </div>
+                        <!-- Dibaca -->
+                        <div class="ml-auto flex-column d-none d-md-flex justify-content-center" style=min-width:160px>
+                            <div class=my-2 title="Perkiraan waktu yang dihabiskan untuk belajar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor"
+                                    class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5.0 00-1 0V9a.5.5.0 00.252.434l3.5 2a.5.5.0 00.496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 108 0a8 8 0 000 16zm7-8A7 7 0 111 8a7 7 0 0114 0z" /></svg> <b
+                                    class=ml-1>35</b> <span class="text-secondary small">Dibaca</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-journals" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2 2 2 0 01-2 2H3a2 2 0 01-2-2h1a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3A1 1 0 002 4H1a2 2 0 012-2h8a2 2 0 012 2v9a1 1 0 001-1V2a1 1 0 00-1-1H5A1 1 0 004 2H3a2 2 0 012-2z" />
+                                    <path
+                                        d="M1 6v-.5a.5.5.0 011 0V6h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 3v-.5a.5.5.0 011 0V9h.5a.5.5.0 010 1h-2a.5.5.0 010-1H1zm0 2.5v.5H.5a.5.5.0 000 1h2a.5.5.0 000-1H2v-.5a.5.5.0 00-1 0z" />
+                                </svg> <b class=ml-1>15</b> <span class="text-secondary small">Artikel</span></div>
+                            <div class=my-2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentcolor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 100-6 3 3 0 000 6zm2-3A2 2 0 116 5a2 2 0 014 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29.0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                </svg> <b class=ml-1>Pemula</b> <span class="text-secondary small">Level</span>
+                            </div>
+                        </div>
+                        <!-- akhirDibaca -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="bootstrap5/js/bootstrap.js"></script>
+    <script src="assets/vvue@2.js"></script>
+    <script src='assets/vvue.js'></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
